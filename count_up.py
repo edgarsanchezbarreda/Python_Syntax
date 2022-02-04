@@ -13,6 +13,6 @@ def count_up(start, stop):
     """
 
     # YOUR CODE HERE
-
-
-count_up(5, 7)        
+    nums = range(start, stop+1)
+    for num in nums:
+        print(num)
